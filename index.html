@@ -1,0 +1,1668 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Backup Assist</title>
+    <!-- <link rel="icon" href="images/favicon.ico" type="image/x-icon"> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css" type="text/css" />
+    <link rel="stylesheet" href="css/jquery.classyscroll.css" />
+
+
+
+</head>
+
+<body>
+
+    <!-- I need emergency recovery Modal Start -->
+
+    <div class="modal fade popup-wrapper" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-0">
+
+          <form class="main-form text-center">
+            <img src="images/data-lose-ic.svg" class="img-fluid top-ic pb-4" />
+            <h6>Data Loss Emergency?</h6>
+            <p class="text-black text-center pb-2">Our technicans are data recovery experts. Enter your details below, and<br/> we’ll be in touch to help you. Support hours: Mon-Fri 9-5 EST</p>
+            <div class="row">
+                <div class="inner-field col-md-6">
+                    <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Name" required="">
+                </div>
+
+                <div class="inner-field col-md-6">
+                    <input type="text" class="form-control" id="companyname" aria-describedby="CompanyName" placeholder="Company Name" required="">
+                </div>
+
+                <div class="inner-field col-md-6">
+                    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email" required="">
+                </div>
+
+                <div class="inner-field col-md-6">
+                    <input type="tel" class="form-control" id="phone" aria-describedby="phone" placeholder="Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required="">
+                </div>
+                <div class="inner-text-field col-md-12 p-0">
+                    <textarea class="w-100" placeholder="Tell us a bit more about your issue"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary mt-2 mb-3 border-0 w-auto m-0 text-center">Request emergency recovery</button>
+                </div>
+            </div>
+
+            <span class="we-never">We never spam</span>
+        </form>  
+
+    </div>
+</div>
+</div>
+</div>
+
+<!-- I need emergency recovery Modal End -->
+
+
+
+<!-- Book a Call Modal Start -->
+
+<div class="modal fade popup-wrapper book-call-wrapper" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body p-0">
+
+      <form class="main-form text-center">
+        <img src="images/book-call-ic.svg" class="img-fluid top-ic pb-4" />
+        <h6>Talk With Our Tech Team</h6>
+        <p class="text-black text-center pb-2">Have a specific question? Our technicans are here to help. Enter your<br/> details below and we’ll set up a time to talk.</p>
+        <div class="row">
+            <div class="inner-field col-md-6">
+                <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Name" required="">
+            </div>
+
+            <div class="inner-field col-md-6">
+                <input type="text" class="form-control" id="companyname" aria-describedby="CompanyName" placeholder="Company Name" required="">
+            </div>
+
+            <div class="inner-field col-md-6">
+                <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email" required="">
+            </div>
+
+            <div class="inner-field col-md-6">
+                <input type="tel" class="form-control" id="phone" aria-describedby="phone" placeholder="Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required="">
+            </div>
+            <div class="inner-text-field col-md-12 p-0">
+                <textarea class="w-100" placeholder="Tell us a bit more about your issue"></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary mt-2 mb-3 border-0 w-auto m-0 text-center">Book a Call</button>
+            </div>
+        </div>
+
+        <span class="we-never">Your data is safe with us. </span>
+    </form>  
+
+</div>
+</div>
+</div>
+</div>
+
+<!-- Book a Call Modal End -->
+
+
+
+<!-- Book a Call Modal Start -->
+
+<div class="modal fade popup-wrapper book-call-wrapper" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body p-0">
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/9xwazD5SyVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+</div>
+</div>
+
+<!-- Book a Call Modal End -->
+
+
+
+<!-- Header Start -->
+<div class="main-header">
+    <nav class="navbar navbar-expand-lg navbar-light nav-menu-wrapper py-0">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler border-0 p-0" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+    </button>
+    <div class="collapse navbar-collapse justify-content-center align-items-center sample" id="navbarNav">
+
+        <div class="row align-items-center d-none mobile-top-header">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-boxes">
+                <div class="inner-box">
+                    <a href="#" class="d-flex align-items-center py-4">
+                        <div class="img-box pe-3">
+                            <img src="images/window-ic.svg" class="img-fluid">
+                        </div>
+                        <span class="text-white">Windows 10<br> Backup &amp; Recovery</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-boxes">
+                <div class="inner-box">
+                    <a href="#" class="d-flex align-items-center py-4">
+                        <div class="img-box pe-3">
+                            <img src="images/server-ic.svg" class="img-fluid">
+                        </div>
+                        <span class="text-white">Windows Server<br> Backup &amp; Recovery</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-boxes">
+                <div class="inner-box">
+                    <a href="#" class="d-flex align-items-center py-4">
+                        <div class="img-box pe-3">
+                            <img src="images/microsoft-ic.svg" class="img-fluid">
+                        </div>
+                        <span class="text-white">Microsoft 365<br> Backup</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-boxes">
+                <div class="inner-box">
+                    <a href="#" class="d-flex align-items-center py-4">
+                        <div class="img-box pe-3">
+                            <img src="images/disaster-ic.svg" class="img-fluid">
+                        </div>
+                        <span class="text-white">Disaster<br> Data Recovery</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item active product-megamenu">
+            <!-- <a class="nav-link" href="#">Products <i class="fa fa-angle-down" aria-hidden="true"></i></a> -->
+
+            <!-- Product Megamenu Start -->
+
+
+            <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link dropdown-toggle" href="#" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Products <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <div class="main-product-menu dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <div class="row d-flex dropdown-menu megamenu product border-0" role="menu">
+                        <div class="inner-megamenu d-flex px-0">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 product-main-box one text-center px-0">
+                                <div class="inner-box">
+                                    <h6 class="pb-3">Windows 10 Backup & Recovery</h6>
+                                    <img src="images/product-img-1.png" class="img-fluid product" />
+                                    <h5 class="text-white mb-0">BackupAssist WFH</h5>
+                                    <p>Work From Home backup & recovery</p>
+                                    <div class="theme-dual-btn pb-3 d-flex align-items-center justify-content-center pt-3">
+                                        <a href="#" class="blue-border d-flex align-items-center justify-content-center">Free Trial <img src="images/btn-right.svg" class="img-fluid ps-2"></a>
+                                    </div>
+                                    <a href="#" class="buy-now-btn d-block text-white mb-4">Buy Now</a>
+                                    <a href="#" class="more-tech-btn d-block text-white">More Tech Specs</a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 product-main-box two text-center px-0">
+                                <div class="inner-box">
+                                    <h6 class="pb-4">Windows Server Backup & Recovery</h6>
+
+                                    <div class="row">
+                                        <div class="col-lg-6 left-box">
+                                            <img src="images/product-img-2.png" class="img-fluid product" />
+                                            <h5 class="text-white mb-0">BackupAssist WFH</h5>
+                                            <p>Work From Home backup & recovery</p>
+                                            <div class="theme-dual-btn pb-3 d-flex align-items-center justify-content-center pt-3">
+                                                <a href="#" class="blue-border d-flex align-items-center justify-content-center">Find Out More <img src="images/btn-right.svg" class="img-fluid ps-2"></a>
+                                            </div>
+                                            <a href="#" class="buy-now-btn d-block text-white mb-4">Buy Now</a>
+                                            <a href="#" class="more-tech-btn d-block text-white">More Tech Specs</a>
+                                        </div>
+
+                                        <div class="col-lg-6 right-box">
+                                            <span class="new-tag">New</span>
+                                            <img src="images/product-img-2.png" class="img-fluid product" />
+                                            <h5 class="text-white mb-0">BackupAssist WFH</h5>
+                                            <p>Work From Home backup & recovery</p>
+                                            <div class="theme-dual-btn pb-3 d-flex align-items-center justify-content-center pt-3">
+                                                <a href="#" class="blue-border d-flex align-items-center justify-content-center">Find Out More <img src="images/btn-right.svg" class="img-fluid ps-2"></a>
+                                            </div>
+                                            <a href="#" class="buy-now-btn d-block text-white mb-4">Buy Now</a>
+                                            <a href="#" class="more-tech-btn d-block text-white">More Tech Specs</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 product-main-box three text-center px-0">
+                                <div class="inner-box">
+                                    <h6 class="pb-3">Microsoft 365 Backup</h6>
+                                    <img src="images/product-img-3.png" class="img-fluid product" />
+                                    <h5 class="text-white mb-0">BackupAssist WFH</h5>
+                                    <p>Work From Home backup & recovery</p>
+                                    <div class="theme-dual-btn pb-3 d-flex align-items-center justify-content-center pt-3">
+                                        <a href="#" class="blue-border d-flex align-items-center justify-content-center">Find Out More <img src="images/btn-right.svg" class="img-fluid ps-2"></a>
+                                    </div>
+                                    <a href="#" class="buy-now-btn d-block text-white mb-4">Buy Now</a>
+                                    <a href="#" class="more-tech-btn d-block text-white">More Tech Specs</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </li>
+
+            <!-- Product Megamenu End -->
+
+        </li>
+
+        <li class="nav-item pricing-menu">
+            <a class="nav-link" href="#" id="dropdownMenuButton4" data-bs-toggle="dropdown" aria-expanded="false">Pricing <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <div class="dropdown-main dropdown-menu" aria-labelledby="dropdownMenuButton4">
+              <div class="dropdown-content">
+                  <a href="#">BackupAssist Classic</a>
+                  <a href="#">BackupAssist ER</a>
+                  <a href="#">BackupAssist WFH</a>
+                  <a href="#">BackupAssist 365</a>
+
+              </div>
+          </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Store</a>
+    </li>
+    <li class="nav-item pricing-menu">
+        <a class="nav-link" href="#">Resellers <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Support</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Blog</a>
+    </li>
+    <li class="nav-item pricing-menu">
+        <a class="nav-link" href="#">Company <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+    </li>
+    <li class="nav-item pricing-menu">
+        <a class="nav-link" href="#">Downloads <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+    </li>
+
+
+    <div class="dropdown ps-4 country-flag">
+      <button class="btn dropdown-toggle p-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <img src="images/us-flag.svg" alt="us-flag" class="img-fluid"/>
+        <i class="fa fa-angle-down text-white" aria-hidden="true"></i>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li class="p-0"><a class="dropdown-item" href="#"><img src="images/us-flag.svg" alt="us-flag" class="img-fluid"/></a></li>
+        <li class="p-0"><a class="dropdown-item" href="#"><img src="images/us-flag.svg" alt="us-flag" class="img-fluid"/></a></li>
+        <li class="p-0"><a class="dropdown-item" href="#"><img src="images/us-flag.svg" alt="us-flag" class="img-fluid"/></a></li>
+    </ul>
+</div>
+
+</ul>
+</div>
+</nav>
+
+<header>
+    <div class="container">
+        <div class="row align-items-center inner-header">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-left">
+                <a href="home.html"><img src="images/logo.svg" class="img-fluid"/></a>
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 col-right dektop-menu">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-boxes">
+                        <div class="inner-box">
+                            <a href="#" class="d-flex align-items-center py-4">
+                                <div class="img-box pe-3">
+                                    <img src="images/window-ic.svg" class="img-fluid" />
+                                </div>
+                                <span class="text-white">Windows 10<br/> Backup & Recovery</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-boxes">
+                        <div class="inner-box">
+                            <a href="#" class="d-flex align-items-center py-4">
+                                <div class="img-box pe-3">
+                                    <img src="images/server-ic.svg" class="img-fluid" />
+                                </div>
+                                <span class="text-white">Windows Server<br/> Backup & Recovery</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-boxes">
+                        <div class="inner-box">
+                            <a href="#" class="d-flex align-items-center py-4">
+                                <div class="img-box pe-3">
+                                    <img src="images/microsoft-ic.svg" class="img-fluid" />
+                                </div>
+                                <span class="text-white">Microsoft 365<br/> Backup</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-boxes">
+                        <div class="inner-box">
+                            <a href="#" class="d-flex align-items-center py-4">
+                                <div class="img-box pe-3">
+                                    <img src="images/disaster-ic.svg" class="img-fluid" />
+                                </div>
+                                <span class="text-white">Disaster<br/> Data Recovery</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+</div>
+<!-- Header End -->
+
+
+<!-- Banner Section Start -->
+
+<section class="banner-wrapper">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 col-left">
+                <span class="text-white pb-2 d-block">Business-Grade Microsoft Environment Protection</span>
+                <h1 class="text-white pb-3">Data Protection Engineered For Technical Experts!</h1>
+                <p class="text-white pb-3">Secure your computer systems/data from fire, flood & cyber attack. Designed for companies that value privacy, simplicity & rapid recovery in the case of emergency.</p>
+                <div class="theme-dual-btn d-flex align-items-center">
+                    <a href="#" class="green d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#exampleModal1">Free 30 Day Trial <img src="images/btn-right.svg" class="img-fluid ps-2"/></a>
+                    <a href="#" class="ps-4 text-white no-bg" data-bs-toggle="modal" data-bs-target="#exampleModal"> <img src="images/blue-ic.svg" class="img-fluid pe-3"/>I need emergency recovery</a>
+
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 col-right">
+                <img src="images/form-check.svg" class="img-fluid form-check-img m-auto d-block" />
+                <form class="main-form">
+                    <h6>Check System Compatability</h6>
+                    <p class="text-black text-center">It takes 2 minutes to discover if your systems are compatible & identify the right configuration for you.</p>
+                    <div class="inner-field">
+                        <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Name" required >
+                    </div>
+
+                    <div class="inner-field">
+                        <input type="text" class="form-control" id="companyname" aria-describedby="CompanyName" placeholder="Company Name" required>
+                    </div>
+
+                    <div class="inner-field">
+                        <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="inner-field">
+                        <input type="tel" class="form-control" id="phone" aria-describedby="phone" placeholder="Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary my-3 border-0 d-flex align-items-center">Start Compatability Check <img src="images/btn-right.svg" class="img-fluid ps-2" /></button>
+                    <span class="d-block text-center">We promise not to SPAM you</span>
+                </form>
+            </div>    
+        </div>
+    </div>
+</section>
+
+<!-- Banner Section End -->
+
+
+<!--  Feature Box Section Start  -->
+
+<section class="feature-box-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 inner-box d-flex align-items-center">
+                <img src="images/feature-1.svg" class="img-fluid" />
+                <span>Fast data recovery<br/> & restoration </span>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 inner-box d-flex align-items-center">
+                <img src="images/feature-2.svg" class="img-fluid" />
+                <span>100% ownership & security of your<br/> data - Onsite & Offsite Storage </span>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 inner-box d-flex align-items-center">
+                <img src="images/feature-3.svg" class="img-fluid" />
+                <span>Full Transparency.<br/> No hidden fees. Ever!</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  Feature Box Section End  -->
+
+
+<!--  Our CLient Section Start  -->
+
+<section class="our-client-wrapper">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-left">
+                <h6 class="text-black">Our Clients</h6>
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 col-right d-flex align-items-center justify-content-end">
+               <a href="#"><img src="images/logo-1.svg" class="img-fluid" /></a>
+               <a href="#"><img src="images/logo-2.svg" class="img-fluid" /></a>
+               <a href="#"><img src="images/logo-3.svg" class="img-fluid" /></a>
+               <a href="#"><img src="images/logo-4.svg" class="img-fluid" /></a>
+               <a href="#"><img src="images/logo-5.svg" class="img-fluid" /></a>
+               <a href="#"><img src="images/logo-6.svg" class="img-fluid" /></a>
+               <a href="#"><img src="images/logo-7.svg" class="img-fluid" /></a>
+               <a href="#"><img src="images/logo-8.svg" class="img-fluid" /></a>
+           </div>
+       </div>
+
+   </div>
+</section>
+
+<!--  Our CLient Section End  -->
+
+
+<!--  Why BackupAssist Section Start  -->
+
+<section class="backup-wrapper pt-70 pb-110">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-left">
+                <h6 class="sub-heading pb-1">Why BackupAssist?</h6>
+                <h5 class="text-black pb-2">Your Data in Your Control</h5>
+                <p>With BackupAssist, you have 100% control over your data, cloud based backup, onsite, or both. There’s no prying eyes, and total confidence even the most sensitive data is secure & recoverable at a minute’s notice.</p>
+                <p class="pb-3">There’s no vendor lock-in. Once your data is backed up onsite, you can store it for decades, and retrieve it whenever needed. </p>
+
+                <ul class="icon-listing">
+                    <li class="d-flex align-items-start"><img src="images/green-check.svg" class="img-fluid pe-3"/> <div>Onsite backup - Keep control of your data at all times</div></li>
+                    <li class="d-flex align-items-start"><img src="images/green-check.svg" class="img-fluid pe-3"/><div>All data encrypted & secured from prying eyes</div></li>
+                    <li class="d-flex align-items-start"><img src="images/green-check.svg" class="img-fluid pe-3"/><div>GDPR & HIPAA compliant</div></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-right">
+
+                <!-- <img src="images/data-control-img.jpg" class="img-fluid" /> -->
+                <div class="blue-wrapper ms-auto">
+                   <img  id="video-cover" src="images/data-control-img.jpg" alt="Video title">
+                   <button id="play" class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84" fill="none">
+                        <circle cx="41.8103" cy="41.8103" r="38.8103" stroke="white" stroke-width="6"/>
+                        <path d="M55.1386 40.1842C56.253 40.982 56.253 42.6388 55.1386 43.4366L37.1731 56.2984C35.8496 57.2459 34.0089 56.2999 34.0089 54.6722L34.0089 28.9486C34.0089 27.3209 35.8496 26.3749 37.1731 27.3224L55.1386 40.1842Z" fill="white"/>
+                    </svg>
+                    <p class="text-white pt-4 mb-0">The Ultimate<br/> Backup System</p>
+                </button>
+            </div>
+        </div>    
+
+    </div>
+
+    <div class="row pt-5">
+       <div class="theme-dual-btn d-flex align-items-center justify-content-center">
+        <a href="#" class="green d-flex align-items-center">Free 30 Day Trial <img src="images/btn-right.svg" class="img-fluid ps-2"/></a>
+        <a href="#" class="blue-border ms-3 d-flex align-items-center justify-content-center">Our Services 
+
+           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path d="M0.736566 0.111143L0.111037 0.737086C-0.0370123 0.885234 -0.0370123 1.12544 0.111037 1.27362L5.82003 7L0.111038 12.7264C-0.0370112 12.8746 -0.0370112 13.1148 0.111038 13.2629L0.736567 13.8889C0.884616 14.037 1.12467 14.037 1.27275 13.8889L7.88896 7.26825C8.03701 7.1201 8.03701 6.87989 7.88896 6.73172L1.27275 0.11111C1.12467 -0.0370363 0.884615 -0.0370363 0.736566 0.111143Z" fill="#008ECE"/>
+            <path d="M6.73657 0.111143L6.11104 0.737086C5.96299 0.885234 5.96299 1.12544 6.11104 1.27362L11.82 7L6.11104 12.7264C5.96299 12.8746 5.96299 13.1148 6.11104 13.2629L6.73657 13.8889C6.88462 14.037 7.12467 14.037 7.27275 13.8889L13.889 7.26825C14.037 7.1201 14.037 6.87989 13.889 6.73172L7.27275 0.11111C7.12467 -0.0370363 6.88461 -0.0370363 6.73657 0.111143Z" fill="#008ECE"/>
+        </svg>
+    </a>
+</div>
+</div>
+
+</div>
+</section>
+
+<!--  Why BackupAssist Section End  -->
+
+
+
+<!--  Fix Price Box Section Start  -->
+
+<section class="fix-box-wrapper pt-70">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <img src="images/blue-ic.svg" class="img-fluid" />
+                <h6 class="sub-heading pb-1">5 Year Fixed Price Guarantee!</h6>
+                <h4 class="text-black">Award Winning Protection,<br/> Transparent Pricing </h4>
+            </div>
+        </div>
+
+        <div class="row pt-5 mt-3 justify-content-between inner-price-box">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pricing-box one px-0">
+                <div class="box-header text-center">
+                    <span class="pb-2 d-block text-white">Windows Server Backup & Protection</span>
+                    <h6 class="text-white">BackupAssist Classic</h6>
+                </div>
+
+                <div class="box-content text-center">
+                    <span class="pb-2 d-block">Only</span>
+                    <h3 class="pb-2">$279</h3>
+                    <h6 class="pb-3">One Time Fee / Advanced<br/> Support Options Available </h6>
+                    <p class="pb-2">Full protection for your windows server. Includes cyber-attack recovery & simple steps to restore all your data and applications.</p>
+
+                    <div class="theme-dual-btn d-flex flex-wrap align-items-center justify-content-center">
+                        <a href="#" class="green d-flex align-items-center mb-3">Free 30 Day Trial <img src="images/btn-right.svg" class="img-fluid ps-2"/></a>
+                        <a href="#" class="text-deco ms-3 d-flex align-items-center justify-content-center">Purchase Immediately</a>
+                    </div>
+
+                    <ul class="icon-listing text-start">
+                        <li class="d-flex align-items-start"><img src="images/green-check.svg" class="img-fluid pe-3"/> <div>Fast data recovery & restoration<br/> (no extra fee)</div></li>
+                        <li class="d-flex align-items-start"><img src="images/green-check.svg" class="img-fluid pe-3"/><div>Local data backup </div></li>
+                        <li class="d-flex align-items-start"><img src="images/green-check.svg" class="img-fluid pe-3"/><div>File & complete application recovery</div></li>
+                    </ul>
+
+                    <a href="#" class="more-specs">More Tech Specs</a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pricing-box two px-0">
+                <div class="box-header text-center">
+                    <span class="pb-2 d-block text-white">Cloud & Local Data Protection</span>
+                    <h6 class="text-white">BackupAssist ER</h6>
+                </div>
+
+                <div class="box-content text-center">
+                    <span class="pb-2 d-block">From</span>
+                    <h3 class="pb-2">$199</h3>
+                    <h6 class="pb-3">per Year per Machine </h6>
+                    <p class="pb-2">This is the deluxe backup option. Get protection from ransomware, cyber attack & natural disasters. Express recovery for minimal business downtime</p>
+
+                    <div class="theme-dual-btn d-flex flex-wrap align-items-center justify-content-center">
+                        <a href="#" class="green d-flex align-items-center mb-3"> Find Out More<img src="images/btn-right.svg" class="img-fluid ps-2"/></a>
+                        <a href="#" class="text-deco ms-3 d-flex align-items-center justify-content-center">Purchase Immediately</a>
+                    </div>
+
+                    <ul class="icon-listing text-start">
+                        <li class="d-flex align-items-start"><img src="images/green-check.svg" class="img-fluid pe-3"/> <div>Disk to disk to cloud backup - full cover</div></li>
+                        <li class="d-flex align-items-start"><img src="images/green-check.svg" class="img-fluid pe-3"/><div>Retain & retrieve data years later </div></li>
+                        <li class="d-flex align-items-start"><img src="images/green-check.svg" class="img-fluid pe-3"/><div>Full bare metal system recovery</div></li>
+                    </ul>
+
+                    <a href="#" class="more-specs">More Tech Specs</a>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pricing-box three px-0">
+                <div class="box-header text-center">
+                    <span class="pb-2 d-block text-white">Backup Office 365</span>
+                    <h6 class="text-white">BackupAssist 365</h6>
+                </div>
+
+                <div class="box-content text-center">
+                    <span class="pb-2 d-block">From</span>
+                    <h3 class="pb-2">$1.05</h3>
+                    <h6 class="pb-3">per User per Month</h6>
+                    <p class="pb-2">Protect all your Office 365 documents, emails & Onedrive files with BackupAssist 365. Get core business functionality back within hours.</p>
+
+                    <div class="theme-dual-btn d-flex flex-wrap align-items-center justify-content-center">
+                        <a href="#" class="green d-flex align-items-center mb-3"> Find Out More<img src="images/btn-right.svg" class="img-fluid ps-2"/></a>
+                        <a href="#" class="text-deco ms-3 d-flex align-items-center justify-content-center">Purchase Immediately</a>
+                    </div>
+
+                    <ul class="icon-listing text-start">
+                        <li class="d-flex align-items-start"><img src="images/green-check.svg" class="img-fluid pe-3"/> <div> IMAP mailbox backup</div></li>
+                        <li class="d-flex align-items-start"><img src="images/green-check.svg" class="img-fluid pe-3"/><div>Keep local copies of cloud data</div></li>
+                        <li class="d-flex align-items-start"><img src="images/green-check.svg" class="img-fluid pe-3"/><div>Fast data recovery </div></li>
+                    </ul>
+
+                    <a href="#" class="more-specs">More Tech Specs</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!--  Fix Price Box Section End  -->
+
+
+<!--  Rating Client Section Start  -->
+
+<section class="star-rating-wrapper pt-100 pb-110">
+    <div class="container">
+        <div class="row inner-rating">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 rating-box col-left text-center">
+                <div class="star"><img src="images/blue-rating.svg" class="img-fluid" /><img src="images/blue-rating.svg" class="img-fluid" /><img src="images/blue-rating.svg" class="img-fluid" /><img src="images/blue-rating.svg" class="img-fluid" /><img src="images/blue-rating.svg" class="img-fluid" /></div>
+                <h6 class="py-4 text-black"> “ Ransomware is a very real and critical problem that every organization regardless of size must address through a variety of means, including good backup processes and technology – such as BackupAssist and its CryptoSafeGuard solution. ”</h6>
+
+                <div class="client-img">
+                    <img src="images/client-img.png" class="img-fluid" />
+                    <h6 class="mb-0 pt-3">Michael Osterman</h6>
+                    <p class="mb-0">President @Osterman Research</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 rating-box col-left text-center">
+                <div class="star"><img src="images/blue-rating.svg" class="img-fluid" /><img src="images/blue-rating.svg" class="img-fluid" /><img src="images/blue-rating.svg" class="img-fluid" /><img src="images/blue-rating.svg" class="img-fluid" /><img src="images/blue-rating.svg" class="img-fluid" /></div>
+                <h6 class="py-4 text-black"> “ Ransomware is a very real and critical problem that every organization regardless of size must address through a variety of means, including good backup processes and technology – such as BackupAssist and its CryptoSafeGuard solution. ”</h6>
+
+                <div class="client-img">
+                    <img src="images/client-img.png" class="img-fluid" />
+                    <h6 class="mb-0 pt-3">Michael Osterman</h6>
+                    <p class="mb-0">President @Osterman Research</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--  Rating Client Section End  -->
+
+<!--  The Safter Place Section Start  -->
+
+<section class="safter-place-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>The Safest Place for Your Data<br/> is in Your Own Hands</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  The Safter Place Section End -->
+
+
+<!--  Free Compatability Section Start  -->
+
+<section class="free-compatability-wrapper pt-100 pb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-left">
+                <h4 class="text-white pb-2">Free Compatability Check</h4>
+                <p>Discover if BackupAssist meets all of your needs. Save time and effort by completing the form below, followed by some technical details.</p>
+                <ul class="icon-listing small-font py-2">
+                    <li class="d-flex align-items-start text-white"><img src="images/green-check.svg" class="img-fluid pe-3"/> <div> Identify which systems can be backed up (no matter how tricky)</div></li>
+                    <li class="d-flex align-items-start text-white"><img src="images/green-check.svg" class="img-fluid pe-3"/><div>Assess which storage & data protection configuration is right for you</div></li>
+                    <li class="d-flex align-items-start text-white"><img src="images/green-check.svg" class="img-fluid pe-3"/><div>Identify if you qualify for industry discounts & free support</div></li>
+                </ul>
+
+                <form class="main-form">
+                    <div class="row inner-compatability">
+                        <div class="inner-field col-md-6">
+                            <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Name" required >
+                        </div>
+
+                        <div class="inner-field col-md-6">
+                            <input type="text" class="form-control" id="companyname" aria-describedby="CompanyName" placeholder="Company Name" required>
+                        </div>
+
+                        <div class="inner-field col-md-6">
+                            <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email" required>
+                        </div>
+
+                        <div class="inner-field col-md-6">
+                            <input type="tel" class="form-control" id="phone" aria-describedby="phone" placeholder="Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-4 border-0 w-auto m-0"> Start System Compatibility Test
+                         <img src="images/btn-right.svg" class="img-fluid ps-2" /></button>
+                     </div>
+                 </form>
+
+             </div>
+
+             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-right text-end">
+                <img src="images/free-compability-img.png" class="img-fluid" />
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--  Free Compatability Section End  -->
+
+
+<!--  Testimonials Blue Section Start  -->
+
+<section class="blue-testimonial-wrapper pt-100 pb-100">
+    <div class="container">
+        <div class="row blue-testimonial-inner">
+            <div class="col-lg-12 inner-slide">
+                <h6 class="text-white">“ BackupAssist’s thoughtful approach to data protection is allowing us to respond and protect our sensitive patient data as mandated by HIPAA, HITECH and PIPEDA, ensuring all compliance requirements including Meaningful Use are met. “</h6>
+                <div class="row">
+                    <div class="inner-author d-flex align-items-center justify-content-center">
+                        <h5>Will Fraley</h5>
+                        <div class="inner-author-left">
+                            <span>Director of Information Technology</span>
+                            <p>Charlotte Behavioral Health Care</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 inner-slide">
+                <h6 class="text-white">“ BackupAssist’s thoughtful approach to data protection is allowing us to respond and protect our sensitive patient data as mandated by HIPAA, HITECH and PIPEDA, ensuring all compliance requirements including Meaningful Use are met. “</h6>
+                <div class="row">
+                    <div class="inner-author d-flex align-items-center justify-content-center">
+                        <h5>Will Fraley</h5>
+                        <div class="inner-author-left">
+                            <span>Director of Information Technology</span>
+                            <p>Charlotte Behavioral Health Care</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 inner-slide">
+                <h6 class="text-white">“ BackupAssist’s thoughtful approach to data protection is allowing us to respond and protect our sensitive patient data as mandated by HIPAA, HITECH and PIPEDA, ensuring all compliance requirements including Meaningful Use are met. “</h6>
+                <div class="row">
+                    <div class="inner-author d-flex align-items-center justify-content-center">
+                        <h5>Will Fraley</h5>
+                        <div class="inner-author-left">
+                            <span>Director of Information Technology</span>
+                            <p>Charlotte Behavioral Health Care</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  Testimonials Blue Section End  -->
+
+
+<!--  Keep Data Safe Section Start  -->
+
+<div class="keep-data-wrapper pt-100 pb-100">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <img src="images/blue-ic.svg" class="img-fluid" />
+                <h6 class="sub-heading pb-1">On-Site & In Cloud Data Backup</h6>
+                <h4 class="text-black">Keep Your Data Safe with<br/> Multiple Redundancies</h4>
+                <p>Keep the vital information your business runs on safe and restorable, even in<br/> the event of fire, flood, cyber attack, employee error or internet outage.</p>
+            </div>
+        </div>
+
+        <div class="row boxes align-items-center pt-5">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-left text-start">
+                <img src="images/advance-crime-img.jpg" class="img-fluid" />
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-right">
+                <h3>Advanced<br/> Cybercrime Protection</h3>
+                <p>A backup that’s corrupted by cyber attack is no use. That’s why we offer extra layers of protection to keep your data safe from hackers.</p>
+                <p> Protect against ransomware, malicious insider attacks & hacking with a mixture of onsite, offsite, online and offline backups.</p>
+
+                <ul class="icon-listing small-font py-2">
+                    <li class="d-flex align-items-start text-black"><img src="images/green-check.svg" class="img-fluid pe-3"/> <div> Instant SMS notification of a cyber attack</div></li>
+                    <li class="d-flex align-items-start text-black"><img src="images/green-check.svg" class="img-fluid pe-3"/><div>Cyber Black Box - recover fast from hacking & stop future attacks</div></li>
+                    <li class="d-flex align-items-start text-black"><img src="images/green-check.svg" class="img-fluid pe-3"/><div>Enhanced shielding for your backups (beyond air-gapping)</div></li>
+                </ul>
+
+                <div class="theme-dual-btn d-flex align-items-center justify-content-start pt-3">
+                    <a href="#" class="blue-border me-3 d-flex align-items-center justify-content-center">Book call with us 
+
+                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <path d="M0.736566 0.111143L0.111037 0.737086C-0.0370123 0.885234 -0.0370123 1.12544 0.111037 1.27362L5.82003 7L0.111038 12.7264C-0.0370112 12.8746 -0.0370112 13.1148 0.111038 13.2629L0.736567 13.8889C0.884616 14.037 1.12467 14.037 1.27275 13.8889L7.88896 7.26825C8.03701 7.1201 8.03701 6.87989 7.88896 6.73172L1.27275 0.11111C1.12467 -0.0370363 0.884615 -0.0370363 0.736566 0.111143Z" fill="#008ECE"/>
+                        <path d="M6.73657 0.111143L6.11104 0.737086C5.96299 0.885234 5.96299 1.12544 6.11104 1.27362L11.82 7L6.11104 12.7264C5.96299 12.8746 5.96299 13.1148 6.11104 13.2629L6.73657 13.8889C6.88462 14.037 7.12467 14.037 7.27275 13.8889L13.889 7.26825C14.037 7.1201 14.037 6.87989 13.889 6.73172L7.27275 0.11111C7.12467 -0.0370363 6.88461 -0.0370363 6.73657 0.111143Z" fill="#008ECE"/>
+                    </svg>
+                </a>
+                <a href="#" class="green d-flex align-items-center">Free 30 Day Trial <img src="images/btn-right.svg" class="img-fluid ps-2"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row align-items-center pt-100 inner-row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 inner-col-left text-start">
+            <h3>You'll Never Be Locked In!</h3>
+            <p>We’re so confident in our system, we’ve made migrating to<br/> someone else an easy process. </p>
+
+            <p>We don't lock you into anything, you always control your own <br/>data, that’s our promise to you!</p>
+
+            <ul class="icon-listing small-font py-2">
+                <li class="d-flex align-items-start text-black"><img src="images/green-check.svg" class="img-fluid pe-3"/> <div> Seamlessly integrate backups with no system downtime</div></li>
+                <li class="d-flex align-items-start text-black"><img src="images/green-check.svg" class="img-fluid pe-3"/><div>Options for special compliance and archive requirements  </div></li>
+                <li class="d-flex align-items-start text-black"><img src="images/green-check.svg" class="img-fluid pe-3"/><div>Fast data restoration with backups onsite and online</div></li>
+            </ul>
+
+            <div class="theme-dual-btn d-flex align-items-center justify-content-start pt-3">
+                <a href="#" class="blue-border me-3 d-flex align-items-center justify-content-center">Book call with us 
+                   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M0.736566 0.111143L0.111037 0.737086C-0.0370123 0.885234 -0.0370123 1.12544 0.111037 1.27362L5.82003 7L0.111038 12.7264C-0.0370112 12.8746 -0.0370112 13.1148 0.111038 13.2629L0.736567 13.8889C0.884616 14.037 1.12467 14.037 1.27275 13.8889L7.88896 7.26825C8.03701 7.1201 8.03701 6.87989 7.88896 6.73172L1.27275 0.11111C1.12467 -0.0370363 0.884615 -0.0370363 0.736566 0.111143Z" fill="#008ECE"/>
+                    <path d="M6.73657 0.111143L6.11104 0.737086C5.96299 0.885234 5.96299 1.12544 6.11104 1.27362L11.82 7L6.11104 12.7264C5.96299 12.8746 5.96299 13.1148 6.11104 13.2629L6.73657 13.8889C6.88462 14.037 7.12467 14.037 7.27275 13.8889L13.889 7.26825C14.037 7.1201 14.037 6.87989 13.889 6.73172L7.27275 0.11111C7.12467 -0.0370363 6.88461 -0.0370363 6.73657 0.111143Z" fill="#008ECE"/>
+                </svg>
+
+            </a>
+            <a href="#" class="green d-flex align-items-center">Free 30 Day Trial <img src="images/btn-right.svg" class="img-fluid ps-2"></a>
+        </div>
+
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 inner-col-right text-end">
+        <img src="images/advance-crime-img-1.jpg" class="img-fluid" />
+
+    </div>
+</div>
+
+</div>
+</div>
+
+<!--  Keep Data Safe Section End  -->
+
+<!--  Emergency Effective Section Start  -->
+
+<section class="energy-effective-wrapper pt-100 pb-100">
+    <div class="container">
+        <div class="row">
+         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-left text-start">
+            <img src="images/emergency-img-1.png" class="img-fluid" />
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-right">
+            <h3 class="text-white">Do you have <br/>a Data Emergency?</h3>
+            <p>Do you need help right now to recover lost data and get your business up and running again?</p>
+            <p> We know how stressful data loss can be. Our technicians are standing by to help, click below to get started.  </p>
+
+            <ul class="icon-listing small-font py-2">
+                <li class="d-flex align-items-start text-white"><img src="images/green-check.svg" class="img-fluid pe-3"/> <div> Help from technicians specialized in data recovery</div></li>
+                <li class="d-flex align-items-start text-white"><img src="images/green-check.svg" class="img-fluid pe-3"/><div>We’re here to help - even if you’re not yet a customer</div></li>
+                <li class="d-flex align-items-start text-white"><img src="images/green-check.svg" class="img-fluid pe-3"/><div> 9am - 5pm Mon-Fri EST support </div></li>
+            </ul>
+
+            <div class="theme-dual-btn d-flex align-items-center justify-content-start">
+                <a href="#" class="blue-border blue me-3 d-flex align-items-center justify-content-center text-white border-0">Contact us <img src="images/btn-right.svg" class="img-fluid ps-2"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row align-items-center pt-100 inner-row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 inner-col-left text-start">
+            <h6 class="sub-heading">Fast and Reliable</h6>
+            <h3 class="text-white">Effective Support </h3>
+            <p>BackupAssist is an independent company, and this means we put our clients first. </p>
+
+            <p>There’s no scripts, no ‘your call is important to us, please wait 40 minutes.’ Our support staff are trained technicians, and they’ll get to work on your issue immediately.</p>
+
+            <ul class="icon-listing small-font py-2">
+                <li class="d-flex align-items-start text-white"><img src="images/green-check.svg" class="img-fluid pe-3"/> <div> Diagnosis & technical support starts immediately</div></li>
+                <li class="d-flex align-items-start text-white"><img src="images/green-check.svg" class="img-fluid pe-3"/><div> No time limit - we work with you until the issue is solved</div></li>
+                <li class="d-flex align-items-start text-white"><img src="images/green-check.svg" class="img-fluid pe-3"/><div> Phone & email support, highly trained USA based staff</div></li>
+            </ul>
+
+            <div class="theme-dual-btn d-flex align-items-center justify-content-start pt-3">
+                <a href="#" class="blue-border me-3 d-flex align-items-center justify-content-center">Book call with us 
+                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M0.736566 0.111143L0.111037 0.737086C-0.0370123 0.885234 -0.0370123 1.12544 0.111037 1.27362L5.82003 7L0.111038 12.7264C-0.0370112 12.8746 -0.0370112 13.1148 0.111038 13.2629L0.736567 13.8889C0.884616 14.037 1.12467 14.037 1.27275 13.8889L7.88896 7.26825C8.03701 7.1201 8.03701 6.87989 7.88896 6.73172L1.27275 0.11111C1.12467 -0.0370363 0.884615 -0.0370363 0.736566 0.111143Z" fill="#008ECE"/>
+                    <path d="M6.73657 0.111143L6.11104 0.737086C5.96299 0.885234 5.96299 1.12544 6.11104 1.27362L11.82 7L6.11104 12.7264C5.96299 12.8746 5.96299 13.1148 6.11104 13.2629L6.73657 13.8889C6.88462 14.037 7.12467 14.037 7.27275 13.8889L13.889 7.26825C14.037 7.1201 14.037 6.87989 13.889 6.73172L7.27275 0.11111C7.12467 -0.0370363 6.88461 -0.0370363 6.73657 0.111143Z" fill="#008ECE"/>
+                </svg>
+            </a>
+            <a href="#" class="green d-flex align-items-center">Free 30 Day Trial <img src="images/btn-right.svg" class="img-fluid ps-2"></a>
+        </div>
+
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 inner-col-right text-end">
+        <img src="images/emergency-img-2.png" class="img-fluid" />
+
+    </div>
+</div>
+
+
+</div>
+</section>
+
+<!--  Emergency Effective Section End  -->
+
+
+<!--  Local Cloud Backup Section Start  -->
+
+<section class="blue-testimonial-wrapper pt-100 pb-100 local-cloud-backup-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3 class="text-white pb-3">Local & Cloud Backup <br/>Eliminates Single-Point Failures </h3>
+                <p class="text-white pb-2">(especially against cyber attacks & ransomware)</p>
+                <div class="theme-dual-btn d-flex align-items-center justify-content-center pt-3 text-center">
+                    <a href="#" class="green d-flex align-items-center">Get in touch <img src="images/btn-right.svg" class="img-fluid ps-2"></a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--  Local Cloud Backup Section Start  -->
+
+
+    <!--  Award Winning Section Start  -->
+
+    <section class="award-winning-wrapper pt-110 pb-110">
+        <div class="container">
+            <div class="row inner-row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-left text-center">
+                    <img src="images/award-winning-img.jpg" class="img-fluid" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-right">
+                   <h6 class="sub-heading">About BackupAssist</h6> 
+                   <h3>Award Winning Protection for Large & Small Businesses </h3>
+                   <p>BackupAssist is big enough to handle tough data problems, but small enough to care about clients of all sizes.  We’re trusted in 165 countries, and protect over 200,000 windows servers. We serve:</p>
+
+                   <ul class="icon-listing small-font py-2">
+                    <li class="d-flex align-items-start text-black"><img src="images/green-check.svg" class="img-fluid pe-3"/> <div> Private Businesses, including those in healthcare</div></li>
+                    <li class="d-flex align-items-start text-black"><img src="images/green-check.svg" class="img-fluid pe-3"/><div> Government & Not for Profits</div></li>
+                    <li class="d-flex align-items-start text-black"><img src="images/green-check.svg" class="img-fluid pe-3"/><div> Government & Not for Profits</div></li>
+                </ul>
+
+                <div class="theme-dual-btn d-flex align-items-center justify-content-start text-center">
+                    <a href="#" class="blue-border blue d-flex align-items-center justify-content-center text-white border-0" >Book a call with us <img src="images/btn-right.svg" class="img-fluid ps-2"></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  Award Winning Section End  -->
+
+<!--  Industry Awards Section Start  -->
+
+<section class="industry-award-wrapper pt-100 pb-100">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <img src="images/blue-ic.svg" class="img-fluid pb-2" />
+                <h4 class="text-white">Industry Awards</h4>
+            </div>
+        </div>
+
+        <div class="row pt-5 justify-content-center one">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 inner-box col-left me-3">
+                <img src="images/industry-awards-img-1.png" class="img-fluid" />
+                <div class="inner-content">
+                    <span>TechConsult Professional User Rating</span>
+                    <h6 class="text-black">Backup & Recovery Champion</h6>
+                    <p>In a total of 1,224 interviews with users of I.T. security solutions, across 50 different criteria, BackupAssist achieved the highest award possible – “Champion” status – beating out many market giants including Veritas, IBM, CA and Commvault.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 inner-box col-right ms-3">
+                <img src="images/industry-awards-img-2.png" class="img-fluid" />
+                <div class="inner-content">
+                    <span>Data backup and recovery software</span>
+                    <h6 class="text-black">Product of the Year - Finalist</h6>
+                    <p>In the extremely prestigious and competitive TechTarget awards, BackupAssist achieved finalist status, along with six other vendors that included the likes of IBM and Veeam. BackupAssist was the only vendor focused exclusively on SMEs, and the only vendor with a product priced starting at under $500.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row blue-testimonial-inner pt-110">
+            <div class="col-lg-12 inner-slide">
+                <h6 class="text-white">“ BackupAssist 10 brings<br/> big enterprise backup to SME’s. ” </h6>
+                <div class="row">
+                    <div class="inner-author d-flex align-items-center justify-content-center">
+                        <h5>Phil Goodwin</h5>
+                        <div class="inner-author-left">
+                            <span>Research Director of</span>
+                            <p>Protection, Availability & Recovery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 inner-slide">
+                <h6 class="text-white">“ BackupAssist 10 brings<br/> big enterprise backup to SME’s. ” </h6>
+                <div class="row">
+                    <div class="inner-author d-flex align-items-center justify-content-center">
+                        <h5>Phil Goodwin</h5>
+                        <div class="inner-author-left">
+                            <span>Research Director of</span>
+                            <p>Protection, Availability & Recovery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 inner-slide">
+                <h6 class="text-white">“ BackupAssist 10 brings<br/> big enterprise backup to SME’s. ” </h6>
+                <div class="row">
+                    <div class="inner-author d-flex align-items-center justify-content-center">
+                        <h5>Phil Goodwin</h5>
+                        <div class="inner-author-left">
+                            <span>Research Director of</span>
+                            <p>Protection, Availability & Recovery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--  Industry Awards Section End  -->
+
+<!--  Customer Success Section Start  -->
+
+<section class="customer-success-wrapper customer pt-110 pb-110">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <img src="images/blue-ic.svg" class="img-fluid pb-2" />
+                <h3 class="text-black">Customer Success</h3>
+                <p>Find out how BackupAssist has protected both large & small companies.</p>
+            </div>
+            <ul class="nav nav-tabs border-0 justify-content-center pb-110 pt-50" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Consulting Firms</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Healthcare</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Govt. Institutions</button>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 col-left">
+
+                    <div class="blue-wrapper ms-auto">
+                       <img  id="video-cover" src="images/success.jpg" alt="Video title">
+                       <button id="play" class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84" fill="none">
+                            <circle cx="41.8103" cy="41.8103" r="38.8103" stroke="white" stroke-width="6"/>
+                            <path d="M55.1386 40.1842C56.253 40.982 56.253 42.6388 55.1386 43.4366L37.1731 56.2984C35.8496 57.2459 34.0089 56.2999 34.0089 54.6722L34.0089 28.9486C34.0089 27.3209 35.8496 26.3749 37.1731 27.3224L55.1386 40.1842Z" fill="white"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="inner-content text-start">
+                    <h5 class="text-black pb-3">“This software has served our organization reliably for years & we highly recommend it.”</h5>
+                    <h6 class="text-black"><span>Gabriel Mejia</span> - Global IT Director Arquitectonica</h6>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 col-right">
+              <img src="images/inner-logo.svg" class="img-fluid pb-5" />
+
+
+              <div class="right-inner-content">
+                  <p class="heading"><span>Client: </span>Arquitectonica</p>
+                  <p><span>Problem: </span><br/>Arquitectonica operates around the clock and can’t afford to have any downtime. Every minute of downtime means lost revenues.</p>
+                  <p><span>Solution: </span><br/>BackupAssist supplied Arquitectonica with a data recovery package with multiple redundancies. </p>
+                  <p><span>Results: </span><br/>Even if a part of Arquitectonica’s system became corrupted or lost, they could immediately restore a good version using BackupAssist’s data recovery system. In this way, they’ve avoided having any costly downtime.  </p>
+                  <div class="theme-dual-btn d-flex align-items-center justify-content-start pt-4">
+                    <a href="#" class="blue blue-border border-0 text-white d-flex align-items-center me-3">Our Approach <img src="images/btn-right.svg" class="img-fluid ps-2"></a>
+                    <a href="#" class="blue-border me-3 d-flex align-items-center justify-content-center">Have a chat 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                            <path d="M0.736566 0.111143L0.111037 0.737086C-0.0370123 0.885234 -0.0370123 1.12544 0.111037 1.27362L5.82003 7L0.111038 12.7264C-0.0370112 12.8746 -0.0370112 13.1148 0.111038 13.2629L0.736567 13.8889C0.884616 14.037 1.12467 14.037 1.27275 13.8889L7.88896 7.26825C8.03701 7.1201 8.03701 6.87989 7.88896 6.73172L1.27275 0.11111C1.12467 -0.0370363 0.884615 -0.0370363 0.736566 0.111143Z" fill="#008ECE"/>
+                            <path d="M6.73657 0.111143L6.11104 0.737086C5.96299 0.885234 5.96299 1.12544 6.11104 1.27362L11.82 7L6.11104 12.7264C5.96299 12.8746 5.96299 13.1148 6.11104 13.2629L6.73657 13.8889C6.88462 14.037 7.12467 14.037 7.27275 13.8889L13.889 7.26825C14.037 7.1201 14.037 6.87989 13.889 6.73172L7.27275 0.11111C7.12467 -0.0370363 6.88461 -0.0370363 6.73657 0.111143Z" fill="#008ECE"/>
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+    <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 col-left">
+
+            <div class="blue-wrapper ms-auto">
+               <img  id="video-cover" src="images/success.jpg" alt="Video title">
+               <button id="play" class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84" fill="none">
+                    <circle cx="41.8103" cy="41.8103" r="38.8103" stroke="white" stroke-width="6"/>
+                    <path d="M55.1386 40.1842C56.253 40.982 56.253 42.6388 55.1386 43.4366L37.1731 56.2984C35.8496 57.2459 34.0089 56.2999 34.0089 54.6722L34.0089 28.9486C34.0089 27.3209 35.8496 26.3749 37.1731 27.3224L55.1386 40.1842Z" fill="white"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="inner-content text-start">
+            <h5 class="text-black pb-3">“This software has served our organization reliably for years & we highly recommend it.”</h5>
+            <h6 class="text-black"><span>Gabriel Mejia</span> - Global IT Director Arquitectonica</h6>
+        </div>
+    </div>
+    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 col-right">
+      <img src="images/inner-logo.svg" class="img-fluid pb-5" />
+
+
+      <div class="right-inner-content">
+          <p class="heading"><span>Client: </span>Arquitectonica</p>
+          <p><span>Problem: </span><br/>Arquitectonica operates around the clock and can’t afford to have any downtime. Every minute of downtime means lost revenues.</p>
+          <p><span>Solution: </span><br/>BackupAssist supplied Arquitectonica with a data recovery package with multiple redundancies. </p>
+          <p><span>Results: </span><br/>Even if a part of Arquitectonica’s system became corrupted or lost, they could immediately restore a good version using BackupAssist’s data recovery system. In this way, they’ve avoided having any costly downtime.  </p>
+          <div class="theme-dual-btn d-flex align-items-center justify-content-start pt-4">
+            <a href="#" class="blue blue-border border-0 text-white d-flex align-items-center me-3">Our Approach <img src="images/btn-right.svg" class="img-fluid ps-2"></a>
+            <a href="#" class="blue-border me-3 d-flex align-items-center justify-content-center">Have a chat 
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M0.736566 0.111143L0.111037 0.737086C-0.0370123 0.885234 -0.0370123 1.12544 0.111037 1.27362L5.82003 7L0.111038 12.7264C-0.0370112 12.8746 -0.0370112 13.1148 0.111038 13.2629L0.736567 13.8889C0.884616 14.037 1.12467 14.037 1.27275 13.8889L7.88896 7.26825C8.03701 7.1201 8.03701 6.87989 7.88896 6.73172L1.27275 0.11111C1.12467 -0.0370363 0.884615 -0.0370363 0.736566 0.111143Z" fill="#008ECE"/>
+                    <path d="M6.73657 0.111143L6.11104 0.737086C5.96299 0.885234 5.96299 1.12544 6.11104 1.27362L11.82 7L6.11104 12.7264C5.96299 12.8746 5.96299 13.1148 6.11104 13.2629L6.73657 13.8889C6.88462 14.037 7.12467 14.037 7.27275 13.8889L13.889 7.26825C14.037 7.1201 14.037 6.87989 13.889 6.73172L7.27275 0.11111C7.12467 -0.0370363 6.88461 -0.0370363 6.73657 0.111143Z" fill="#008ECE"/>
+                </svg>
+            </a>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+</div>
+<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+
+    <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 col-left">
+
+            <div class="blue-wrapper ms-auto">
+               <img  id="video-cover" src="images/success.jpg" alt="Video title">
+               <button id="play" class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84" fill="none">
+                    <circle cx="41.8103" cy="41.8103" r="38.8103" stroke="white" stroke-width="6"/>
+                    <path d="M55.1386 40.1842C56.253 40.982 56.253 42.6388 55.1386 43.4366L37.1731 56.2984C35.8496 57.2459 34.0089 56.2999 34.0089 54.6722L34.0089 28.9486C34.0089 27.3209 35.8496 26.3749 37.1731 27.3224L55.1386 40.1842Z" fill="white"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="inner-content text-start">
+            <h5 class="text-black pb-3">“This software has served our organization reliably for years & we highly recommend it.”</h5>
+            <h6 class="text-black"><span>Gabriel Mejia</span> - Global IT Director Arquitectonica</h6>
+        </div>
+    </div>
+    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 col-right">
+      <img src="images/inner-logo.svg" class="img-fluid pb-5" />
+
+
+      <div class="right-inner-content">
+          <p class="heading"><span>Client: </span>Arquitectonica</p>
+          <p><span>Problem: </span><br/>Arquitectonica operates around the clock and can’t afford to have any downtime. Every minute of downtime means lost revenues.</p>
+          <p><span>Solution: </span><br/>BackupAssist supplied Arquitectonica with a data recovery package with multiple redundancies. </p>
+          <p><span>Results: </span><br/>Even if a part of Arquitectonica’s system became corrupted or lost, they could immediately restore a good version using BackupAssist’s data recovery system. In this way, they’ve avoided having any costly downtime.  </p>
+          <div class="theme-dual-btn d-flex align-items-center justify-content-start pt-4">
+            <a href="#" class="blue blue-border border-0 text-white d-flex align-items-center me-3">Our Approach <img src="images/btn-right.svg" class="img-fluid ps-2"></a>
+            <a href="#" class="blue-border me-3 d-flex align-items-center justify-content-center">Have a chat 
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M0.736566 0.111143L0.111037 0.737086C-0.0370123 0.885234 -0.0370123 1.12544 0.111037 1.27362L5.82003 7L0.111038 12.7264C-0.0370112 12.8746 -0.0370112 13.1148 0.111038 13.2629L0.736567 13.8889C0.884616 14.037 1.12467 14.037 1.27275 13.8889L7.88896 7.26825C8.03701 7.1201 8.03701 6.87989 7.88896 6.73172L1.27275 0.11111C1.12467 -0.0370363 0.884615 -0.0370363 0.736566 0.111143Z" fill="#008ECE"/>
+                    <path d="M6.73657 0.111143L6.11104 0.737086C5.96299 0.885234 5.96299 1.12544 6.11104 1.27362L11.82 7L6.11104 12.7264C5.96299 12.8746 5.96299 13.1148 6.11104 13.2629L6.73657 13.8889C6.88462 14.037 7.12467 14.037 7.27275 13.8889L13.889 7.26825C14.037 7.1201 14.037 6.87989 13.889 6.73172L7.27275 0.11111C7.12467 -0.0370363 6.88461 -0.0370363 6.73657 0.111143Z" fill="#008ECE"/>
+                </svg>
+            </a>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<!--  Customer Success Section End  -->
+
+
+<!--  FAQ top testimonials Section Start  -->
+
+<section class="faq-top-testimonial-wrapper pt-100 pb-110">
+    <div class="container">
+        <div class="row blue-testimonial-inner">
+            <div class="col-lg-12 inner-slide">
+                <h3 class="text-white text-center">“ BackupAssist’s Crytosafeguard had 100% success rate against every ransomware strain we tested. ” </h3>
+                <div class="row">
+                    <div class="inner-author d-flex align-items-center justify-content-center">
+                        <h5>MRG Effitas</h5>
+                        <div class="inner-author-left">
+                            <span>World leading</span>
+                            <p>Independent IT Security Testing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 inner-slide">
+                <h3 class="text-white text-center">“ BackupAssist’s Crytosafeguard had 100% success rate against every ransomware strain we tested. ” </h3>
+                <div class="row">
+                    <div class="inner-author d-flex align-items-center justify-content-center">
+                        <h5>MRG Effitas</h5>
+                        <div class="inner-author-left">
+                            <span>World leading</span>
+                            <p>Independent IT Security Testing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 inner-slide">
+                <h3 class="text-white text-center">“ BackupAssist’s Crytosafeguard had 100% success rate against every ransomware strain we tested. ” </h3>
+                <div class="row">
+                    <div class="inner-author d-flex align-items-center justify-content-center">
+                        <h5>MRG Effitas</h5>
+                        <div class="inner-author-left">
+                            <span>World leading</span>
+                            <p>Independent IT Security Testing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--  FAQ top testimonials Section Start  -->
+
+
+<!--  FAQ Section Start  -->
+
+<section class="customer-success-wrapper pt-110 faq-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <img src="images/blue-ic.svg" class="img-fluid pb-2" />
+                <h3 class="text-black">FAQ’s</h3>
+                <p class="pb-4">Lorem ipsum dolor sit amet</p>
+
+                <div class="accordion text-start" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        How do I know which product is right for me?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Are there additional costs for data recovery?
+            </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+    </div>
+</div>
+<div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        How quickly can you restore systems after data loss?
+    </button>
+</h2>
+<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+  <div class="accordion-body">
+    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        What data standards are you compliant with?
+    </button>
+</h2>
+<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+  <div class="accordion-body">
+    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        Can you do custom data protection?
+    </button>
+</h2>
+<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+  <div class="accordion-body">
+    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+</div>
+</div>
+</div>
+
+</div>
+<div class="theme-dual-btn d-flex align-items-center justify-content-center pt-4">
+    <a href="#" class="blue blue-border border-0 text-white d-flex align-items-center me-3">Got a question <img src="images/btn-right.svg" class="img-fluid ps-2"></a>
+
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<!--  FAQ Section End  --> 
+
+
+<!--  BLog Section Start  -->           
+
+
+<section class="blog-wrapper pt-110 pb-110">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <img src="images/blue-ic.svg" class="img-fluid pb-2" />
+                <h3 class="text-black">Latest News in Data Protection</h3>
+                <p class="pb-4">Find out the latest in cyber attacks, ransomware, and how to guard against them</p>
+            </div>
+        </div>
+        <div class="inner-boxes-wrapper justify-content-between d-flex flex-wrap">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 inner-box one">
+                <a href="#">
+                    <div class="img-content">
+                        <img src="images/blog-img-1.jpg" class="img-fluid w-100" />
+                    </div>
+                    <div class="inner-card-content">
+                        <h5>1 Jan 2021</h5>
+                        <h6 class="pb-2">BackupAssist Classic v11 – a sustained focus on cyber-resilience</h6>
+                        <span>Read more <img src="images/blog-right.svg" class="img-fluid ps-2" /></span>
+                    </div>
+                </a>
+            </div> 
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 inner-box three">
+                <a href="#">
+                    <div class="img-content">
+                        <img src="images/blog-img-3.jpg" class="img-fluid w-100" />
+                    </div>
+                    <div class="inner-card-content">
+                        <h5>1 Jan 2021</h5>
+                        <h6 class="pb-2">The Definitive Ransomware Protection Guide for Business in 2020.</h6>
+                        <span>Read more <img src="images/blog-right.svg" class="img-fluid ps-2" /></span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 inner-box two">
+                <a href="#">
+                    <div class="img-content">
+                        <img src="images/blog-img-2.jpg" class="img-fluid w-100" />
+                    </div>
+                    <div class="inner-card-content">
+                        <h5>1 Jan 2021</h5>
+                        <h6 class="pb-2">Cyber Black Box™ – the inside story of why data logging and forensics matter to SMEs</h6>
+                        <span>Read more <img src="images/blog-right.svg" class="img-fluid ps-2" /></span>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="theme-dual-btn d-flex align-items-center justify-content-center pt-5">
+                <a href="#" class="blue-border d-flex align-items-center justify-content-center">View more articles<!-- <img src="images/blue-arrow.svg" class="img-fluid ps-2 white"><img src="images/btn-right.svg" class="img-fluid ps-2 blue d-none"> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <path d="M0.736566 0.111143L0.111037 0.737086C-0.0370123 0.885234 -0.0370123 1.12544 0.111037 1.27362L5.82003 7L0.111038 12.7264C-0.0370112 12.8746 -0.0370112 13.1148 0.111038 13.2629L0.736567 13.8889C0.884616 14.037 1.12467 14.037 1.27275 13.8889L7.88896 7.26825C8.03701 7.1201 8.03701 6.87989 7.88896 6.73172L1.27275 0.11111C1.12467 -0.0370363 0.884615 -0.0370363 0.736566 0.111143Z" fill="#008ECE"/>
+                        <path d="M6.73657 0.111143L6.11104 0.737086C5.96299 0.885234 5.96299 1.12544 6.11104 1.27362L11.82 7L6.11104 12.7264C5.96299 12.8746 5.96299 13.1148 6.11104 13.2629L6.73657 13.8889C6.88462 14.037 7.12467 14.037 7.27275 13.8889L13.889 7.26825C14.037 7.1201 14.037 6.87989 13.889 6.73172L7.27275 0.11111C7.12467 -0.0370363 6.88461 -0.0370363 6.73657 0.111143Z" fill="#008ECE"/>
+                    </svg>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--  BLog Section End  --> 
+
+
+<!--  30 Day Free Trial Section Start  -->
+
+<section class="blue-testimonial-wrapper local-backup-wrapper day-trial-wrapper pt-100 pb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3 class="text-white pb-3">30 Day Free Trial </h3>
+                <p class="text-white pb-4">Fill in the form below to set a 30 day free trial of BackupAssist.<br/> Our team will help you through installing your state-of-the-art data<br/> protection  so you can protect your business assets right away. </p>
+
+                <form class="main-form">
+                    <div class="row">
+                        <div class="inner-field col-md-6 pe-1">
+                            <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Name" required >
+                        </div>
+
+                        <div class="inner-field col-md-6 ps-1">
+                            <input type="text" class="form-control" id="companyname" aria-describedby="CompanyName" placeholder="Company Name" required>
+                        </div>
+
+                        <div class="inner-field col-md-6 pe-1">
+                            <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email" required>
+                        </div>
+
+                        <div class="inner-field col-md-6 ps-1">
+                            <input type="tel" class="form-control" id="phone" aria-describedby="phone" placeholder="Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                        </div>
+                        <div class="theme-dual-btn d-flex align-items-center justify-content-center pt-3 text-center">
+                            <a href="#" class="green d-flex align-items-center">Start 30 day trial! <img src="images/btn-right.svg" class="img-fluid ps-2"></a>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section> 
+
+<!--  30 Day Free Trial Section End  -->
+
+<!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Action
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
+
+<!-- Footer Start -->
+
+<footer class="main-footer-wrapper pt-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 footer-inner one">
+              <h6 class="text-white pb-2">Products</h6>
+              <a href="#">BackupAssist Classic</a>
+              <a href="#">BackupAssist ER</a>
+              <a href="#">BackupAssist WFH</a>
+              <a href="#">BackupAssist 365</a>
+              <a href="#">Store</a>
+          </div>
+
+          <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 footer-inner one two">
+              <h6 class="text-white pb-2">Company</h6>
+              <a href="#">About Us</a>
+              <a href="#">Brand Promise & Guarantee</a>
+              <a href="#">Social Impact</a>
+              <a href="#">News and Press Releases</a>
+              <a href="#">Blog</a>
+              <a href="#">Join Our Team</a>
+              <a href="#">Legal Notice Support</a>
+              <a href="#">Support</a>
+          </div>
+
+          <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 footer-inner three">
+              <h6 class="text-white pb-2">Contact</h6>
+              <div class="inner-contact pb-1">
+                  <h5 class="text-white mb-1">Head Office</h5>
+                  <a href="tel:61398994681">+61-3-9899-4681</a>
+              </div>
+
+              <div class="inner-contact pb-1">
+                  <h5 class="text-white mb-1">Account & general enquires </h5>
+                  <a href="mailto:admin@cortexcyber.com">admin@cortexcyber.com</a>
+              </div>
+
+              <div class="inner-contact pb-1">
+                  <h5 class="text-white mb-1">Client Success</h5>
+                  <a href="tel:18558752814">+1-855-875-2814</a>
+                  <a href="mailto:sales@backupassist.com">sales@backupassist.com</a>
+              </div>
+
+              <div class="inner-contact">
+                  <h5 class="text-white mb-1">Technical Support</h5>
+                  <a href="tel:18122064265">+1-812-206-4265</a>
+                  <a href="mailto:support@backupassist.com">support@backupassist.com</a>
+              </div>
+
+          </div>
+
+          <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 footer-inner four one">
+              <h6 class="text-white pb-2">Resellers</h6>
+              <a href="#">About Our Programs</a>
+              <a href="#"> Locate A Reseller</a>
+              <h6 class="text-white pt-4">Follow us</h6>
+              <ul class="d-flex ps-0 pt-1">
+                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+              </ul>
+          </div>
+
+      </div>
+
+      <div class="row bottom-footer align-items-center">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-left">
+            <a href="#"><img src="images/footer-logo.svg" class="img-fluid" /></a>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 col-right justify-content-end d-flex align-items-center">
+            <a href="#">Privacy Policy </a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Terms and Conditions</a>
+        </div>
+    </div>
+
+    <div class="row copyright-wrapper text-center">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+            <p class="mb-0">© 2020. BackupAssist™ and the intellectual property contained within this document is the property of Cortex IT Labs Pty Ltd.</p>
+        </div>
+    </div>
+
+</div>
+</footer>
+
+<div class="development-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center d-flex align-items-center justify-content-center development-inner">
+                <p class="d-flex align-items-center mb-0 justify-content-center text-white">Website strategy, creativity & development by 
+                 <div class="m-logo"> <img src="images/development-ic.svg" class="img-fluid ps-4" /></p></div>
+             </div>
+         </div>
+     </div>
+ </div>
+
+ <!-- Footer End -->
+
+<script src="js/jquery.classyscroll.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/slick.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+$('.sample').ClassyScroll();
+
+/*$(document).ready(function(){
+  $(".dropdown-toggle").click(function(){
+    $(".dropdown-menu").toggle("main");
+  });
+});*/
+
+$('.blue-testimonial-inner').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows:true,
+  dots: true,
+  prevArrow: '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+  nextArrow: '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+});
+
+
+$('#play').on('click', function(e) {
+    e.preventDefault();
+    $("#player")[0].src += "?autoplay=1";
+    $('#player').show();
+    $('#video-cover').hide();
+    $('#play').hide();
+})
+
+$('.testimonial-slider').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows:true,
+  dots: true,
+  prevArrow: '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+  nextArrow: '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+});
+
+
+$slick_slider = $('.inner-rating');
+settings_slider = {
+    dots: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false
+    // more settings
+}
+slick_on_mobile( $slick_slider, settings_slider);
+
+// slick on mobile
+function slick_on_mobile(slider, settings){
+    $(window).on('load resize', function() {
+      if ($(window).width() > 600) {
+        if (slider.hasClass('slick-initialized')) {
+          slider.slick('unslick');
+      }
+      return
+  }
+  if (!slider.hasClass('slick-initialized')) {
+    return slider.slick(settings);
+}
+});
+};
+
+
+</script>
+
+
+</body>
+
+</html>
